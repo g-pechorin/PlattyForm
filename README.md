@@ -5,7 +5,7 @@ Based on [this tweet][ioUP], I spent ... 30 minutes? Maybe? putting together an 
 
 The approach here uses two behaviour classes to achive the classical effect of moving platforms that follow some path.
 
-1. mark some empty [GameObject][u3dGO] as [`Waypoint`][ghWaypoint] instances
+1. mark some empty [GameObject][u3dGO]s as [`Waypoint`][ghWaypoint] instances by attaching the script
 1. give each [`Waypoint`][ghWaypoint] a `next` field
 1. attach a [`Mover`][ghMover] instance to your platform(s)
 	- drag the platform towards the next [`Waypoint`][ghWaypoint] at a fixed rate
